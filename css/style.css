@@ -41,7 +41,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
@@ -55,6 +55,7 @@ table{
 
 .colhead{
   background-color: #7e0830;
+  text-align: center;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
@@ -108,8 +109,9 @@ tbody tr:last-child td{
 footer{
   width:100%;
   min-height: 75px;
-  position: absolute;
+  position:fixed;
   bottom: 0;
+  left:0;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
